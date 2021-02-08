@@ -69,6 +69,7 @@ require (
 
 replace (
 	bitbucket.org/shaomingcircles/chf => ../../chf
+  github.com/free5gc/openapi => ../../openapi
 	github.com/free5gc/amf => ../NFs/amf
 	github.com/free5gc/ausf => ../NFs/ausf
 	github.com/free5gc/n3iwf => ../NFs/n3iwf

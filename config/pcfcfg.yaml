@@ -24,6 +24,26 @@ configuration:
   mongodb:       # the mongodb connected by this PCF
     name: free5gc                  # name of the mongodb
     url: mongodb://localhost:27017 # a valid URL of the mongodb
+  queryCHFSpendingLimit: TRUE
+  customSessionRules:
+    - ruleName: throttle
+      authSessAmbr:
+        uplink: 100 Kbps
+        downlink: 100 Kbps
+      authDefQos:
+        var5q: 9
+        arp:
+          priorityLevel: 8  
+        priorityLevel: 8
+    - ruleName: normal
+      authSessAmbr:
+        uplink: 100 Kbps
+        downlink: 100 Kbps
+      authDefQos:
+        var5q: 9
+        arp:
+          priorityLevel: 8  
+        priorityLevel: 8
 
 # the kind of log output
   # debugLevel: how detailed to output, value: trace, debug, info, warn, error, fatal, panic

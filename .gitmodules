@@ -15,7 +15,7 @@
 	url = https://github.com/free5gc/nssf.git
 [submodule "pcf"]
 	path = NFs/pcf
-	url = https://github.com/free5gc/pcf.git
+	url = git@bitbucket.org:shaomingcircles/free5gc_pcf.git
 [submodule "smf"]
 	path = NFs/smf
 	url = https://github.com/free5gc/smf.git
