@@ -133,7 +133,7 @@ else
 fi
 
 sleep 3
-sudo killall -15 free5gc-upfd
+sudo pkill -15 free5gc-upfd
 sleep 1
 
 if [ ${DUMP_NS} ]
@@ -160,8 +160,8 @@ then
     sudo ip link del ipsec0
     ${EXEC_UENS} ip link del ipsec0
     sudo ip netns del ${UENS}
-    sudo killall n3iwf
-    killall test.test
+    sudo pkill n3iwf
+    pkill test.test
     cp -f config/amfcfg.yaml.bak config/amfcfg.yaml
     rm -f config/amfcfg.yaml.bak
 fi

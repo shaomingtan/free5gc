@@ -3,6 +3,11 @@ module test
 go 1.14
 
 require (
+	bitbucket.org/shaomingcircles/chf v0.0.1
+	git.cs.nctu.edu.tw/calee/sctp v1.1.0
+	github.com/Djarvur/go-err113 v0.1.0 // indirect
+	github.com/aws/aws-sdk-go v1.36.24 // indirect
+	github.com/calee0219/fatal v0.0.1
 	github.com/free5gc/CommonConsumerTestData v1.0.0
 	github.com/free5gc/MongoDBLibrary v1.0.0
 	github.com/free5gc/UeauCommon v1.0.0
@@ -23,10 +28,6 @@ require (
 	github.com/free5gc/smf v1.3.0
 	github.com/free5gc/udm v1.3.0
 	github.com/free5gc/udr v1.3.0
-	git.cs.nctu.edu.tw/calee/sctp v1.1.0
-	github.com/Djarvur/go-err113 v0.1.0 // indirect
-	github.com/aws/aws-sdk-go v1.36.24 // indirect
-	github.com/calee0219/fatal v0.0.1
 	github.com/gin-gonic/gin v1.6.3
 	github.com/go-ping/ping v0.0.0-20200918120429-e8ae07c3cec8
 	github.com/golangci/golangci-lint v1.35.2
@@ -55,7 +56,7 @@ require (
 	github.com/vishvananda/netlink v1.1.0
 	go.mongodb.org/mongo-driver v1.4.4
 	golang.org/x/crypto v0.0.0-20201221181555-eec23a3978ad // indirect
-	golang.org/x/net v0.0.0-20201224014010-6772e930b67b
+	golang.org/x/net v0.0.0-20210119194325-5f4716e94777
 	golang.org/x/sys v0.0.0-20210112091331-59c308dcf3cc
 	golang.org/x/text v0.3.5 // indirect
 	golang.org/x/tools v0.0.0-20210111221946-d33bae441459 // indirect
@@ -67,6 +68,7 @@ require (
 )
 
 replace (
+	bitbucket.org/shaomingcircles/chf => ../../chf
 	github.com/free5gc/amf => ../NFs/amf
 	github.com/free5gc/ausf => ../NFs/ausf
 	github.com/free5gc/n3iwf => ../NFs/n3iwf

@@ -12,6 +12,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/urfave/cli"
 
+	chf_service "bitbucket.org/shaomingcircles/chf/service"
 	"github.com/free5gc/CommonConsumerTestData/UDM/TestGenAuthData"
 	"github.com/free5gc/MongoDBLibrary"
 	amf_service "github.com/free5gc/amf/service"
@@ -40,6 +41,7 @@ var NFs = []app.NetworkFunction{
 	&udm_service.UDM{},
 	&nssf_service.NSSF{},
 	&ausf_service.AUSF{},
+	&chf_service.CHF{},
 	//&n3iwf_service.N3IWF{},
 }
 
