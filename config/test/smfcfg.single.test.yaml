@@ -75,6 +75,7 @@ configuration:
         ipv4: 8.8.4.4
         ipv6: 2001:4860:4860::8844
   nrfUri: http://127.0.0.10:8000
+  trackChargingData: TRUE
 
 logger:
   SMF:

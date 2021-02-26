@@ -3,7 +3,7 @@ module test
 go 1.14
 
 require (
-	bitbucket.org/shaomingcircles/chf v0.0.1
+	bitbucket.org/libertywireless/circles-ccs v0.0.1
 	git.cs.nctu.edu.tw/calee/sctp v1.1.0
 	github.com/Djarvur/go-err113 v0.1.0 // indirect
 	github.com/aws/aws-sdk-go v1.36.24 // indirect
@@ -68,7 +68,8 @@ require (
 )
 
 replace (
-	bitbucket.org/shaomingcircles/chf => ../../chf
+	bitbucket.org/libertywireless/circles-ccs => ../../chf
+	github.com/free5gc/openapi => ../../openapi
 	github.com/free5gc/amf => ../NFs/amf
 	github.com/free5gc/ausf => ../NFs/ausf
 	github.com/free5gc/n3iwf => ../NFs/n3iwf

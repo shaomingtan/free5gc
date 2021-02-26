@@ -12,7 +12,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/urfave/cli"
 
-	chf_service "bitbucket.org/shaomingcircles/chf/service"
+	chf_service "bitbucket.org/libertywireless/circles-ccs/service"
 	"github.com/free5gc/CommonConsumerTestData/UDM/TestGenAuthData"
 	"github.com/free5gc/MongoDBLibrary"
 	amf_service "github.com/free5gc/amf/service"
